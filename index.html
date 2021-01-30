@@ -13,29 +13,41 @@
     </head>
     <body>
         <header>
-            <h1 id="logo">dev.finance<span>$</span></h1>
+            <img src="/MaratonaDiscover/assets/logo.svg" alt="Logo">
         </header>
 
         <main class="container">
             <section id="balance">
-                <h2>Balanço</h2>
+                <h2 class="sr-only">Balanço</h2>
                 <div class="card">
-                    <h3>Entradas</h3>
+                    <h3>
+                        <span>Entradas</span>
+                        <img src="/MaratonaDiscover/assets/income.svg" alt="Entrada">
+                    </h3>
                     <p>R$ 5.000,00</p>
                 </div>
                 <div class="card">
-                    <h3>Saídas</h3>
+                    <h3>
+                        <span>Saídas</span> 
+                        <img src="/MaratonaDiscover/assets/expense.svg" alt="Saida">
+                    </h3>
                     <p>R$ 2.000,00</p>
                 </div>
                 <div class="card total">
-                    <h3>Total</h3>
+                    <h3>
+                        <span>Total</span>
+                        <img src="/MaratonaDiscover/assets/total.svg" alt="Total">
+                    </h3>
                     <p>R$ 3.000,00</p>
                 </div>
 
             </section>
 
             <section id="transaction">
-                <h2>Transações</h2>
+                <h2 class="sr-only">Transações</h2>
+
+                <a href="#" class="button new">+ Nova Transação</a>
+
 
                 <table id="data-table">
                     <thead>
@@ -43,6 +55,7 @@
                             <th>Descrição</th>
                             <th>Valor</th>
                             <th>Data</th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,16 +63,19 @@
                             <td class="description">Luz</td>
                             <td class="expense">-R$ 500,00</td>
                             <td class="date">23/01/2021</td>
+                            <td><img src="/MaratonaDiscover/assets/minus.svg" alt="Remover"></td>
                         </tr>
                         <tr>
                             <td class="description">Criação de website</td>
                             <td class="income">R$ 5000,00</td>
                             <td class="date">23/01/2021</td>
+                            <td><img src="/MaratonaDiscover/assets/minus.svg" alt="Remover"></td>
                         </tr>
                         <tr>
                             <td class="description">Internet</td>
                             <td class="expense">-R$ 200,00</td>
                             <td class="date">23/01/2021</td>
+                            <td><img src="/MaratonaDiscover/assets/minus.svg" alt="Remover"></td>
                         </tr>
                     </tbody>
                 </table>
