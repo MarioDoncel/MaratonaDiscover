@@ -28,21 +28,21 @@
                     <span>Entradas</span>
                     <img src="/MaratonaDiscover/assets/income.svg" alt="Entrada">
                 </h3>
-                <p>R$ 5.000,00</p>
+                <p id="incomeDisplay">R$ 5.000,00</p>
             </div>
             <div class="card">
                 <h3>
                     <span>Saídas</span>
                     <img src="/MaratonaDiscover/assets/expense.svg" alt="Saida">
                 </h3>
-                <p>R$ 2.000,00</p>
+                <p id="expenseDisplay">R$ 2.000,00</p>
             </div>
             <div class="card total">
                 <h3>
                     <span>Total</span>
                     <img src="/MaratonaDiscover/assets/total.svg" alt="Total">
                 </h3>
-                <p>R$ 3.000,00</p>
+                <p id="totalDisplay">R$ 3.000,00</p>
             </div>
 
         </section>
@@ -91,20 +91,20 @@
         <div class="modal">
             <div class="form">
                 <h2>Nova Transação</h2>
-                <form action="">
+                <form action="" onsubmit="form.submit(event)" >
                     <div class="input-group">
                         <label class="sr-only" for="description">Descrição</label>
-                        <input type="text" name="description" id="description" placeholder="Descrição">
+                        <input type="text" name="description" id="description" placeholder="Descrição" >
                     </div>
                     <div class="input-group">
                         <label class="sr-only" for="amount">Valor</label>
-                        <input type="number" name="amount" id="amount" placeholder="0,00" step="0.01">
+                        <input type="number" name="amount" id="amount" placeholder="0,00" step="0.01" >
                         <small class="help">Use o sinal - (negativo) para despesas e , (virgula) para casas
                             decimais</small>
                     </div>
                     <div class="input-group">
                         <label class="sr-only" for="date"> Data </label>
-                        <input type="date" name="date" id="date" placeholder="01/01/2021">
+                        <input type="date" name="date" id="date" placeholder="01/01/2021" >
                     </div>
 
                     <div class="input-group actions">
