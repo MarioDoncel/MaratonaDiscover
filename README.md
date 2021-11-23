@@ -15,9 +15,8 @@ Project developed at the first edition of the "<a href="https://www.rocketseat.c
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url] 
 -->
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MarioDoncel/MaratonaDiscover/blob/master/LICENSE)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marioadoncel/)
-
+[![MIT License][license-shield]](https://github.com/MarioDoncel/MaratonaDiscover/blob/master/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/marioadoncel/)
 
 <br />
 
@@ -151,3 +150,18 @@ Project Link: [https://github.com/MarioDoncel/MaratonaDiscover](https://github.c
 * [Rocketseat](https://www.rocketseat.com.br/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png
