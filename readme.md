@@ -1,12 +1,12 @@
 <!-- TITLE -->
-<h1>ECOLETA</h1> <br>
+<h1>DEV.FINANCE$</h1> <br>
 <!-- PROJECT LOGO -->
 <div align="center">
-    <img src="public/assets/Logo.png" alt="Logo" width="300px">
+    <img src="assets/logo.svg" alt="Logo" width="300px">
 <br>
 Project developed at the first edition of the "<a href="https://www.rocketseat.com.br/">Rocketseat</a> - Maratona Discover"  event. 
 <div id="top"></div>
-</div><br>  
+</div><br/>  
 
 <!-- 
 [![Contributors][contributors-shield]][contributors-url]
@@ -98,9 +98,11 @@ Finished.
    ```
 2. Open index.html with live server
 
-or open it on the link bellow
+or 
 
-<a href="https://mariodoncel.github.io/MaratonaDiscover/"> DEV.FINANCE$</a>
+1. Open it on the link bellow
+
+  <a href="https://mariodoncel.github.io/MaratonaDiscover/"> DEV.FINANCE$</a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -108,29 +110,15 @@ or open it on the link bellow
 <!-- USAGE EXAMPLES -->
 ## Usage
 <div>
-  <p>Index Page - Here you have the option to create a new collect point or search for an existing point.</p>
-  <img src="public/assets/readmeImages/EcoletaIndex.png" width="500px">
+    <p><strong>Index Page</strong> - Here you have the resume of your incomes, expenses and balance, also her you can create a new transaction or remove an existing one.</p>
+  <img src="assets/readmeImages/index.png" width="500px">
 </div>
 <br>
 <div>
-  <p>Create Point Page - Here you need to fill all the inputs and select at least one type of material to collect, then you can create a collect point.</p>
-  <img src="public/assets/readmeImages/CreatePoint.png" width="500px">
+  <p><strong>Add Transaction Modal</strong> - Here you need to fill all the inputs an click on save to add a new transaction. If the transaction is an expense add the minus signal in value field.</p>
+  <img src="assets/readmeImages/addTransaction.png" width="500px">
 </div>
 <br>
-<div>
-  <p>Create Success Modal - After creating a point, if it is everything alright this modal will show up for 3 seconds (timeout).</p>
-  <img src="public/assets/readmeImages/CreateSucces.png" width="500px">
-</div>
-<br>
-<div>
-  <p>Search Field Modal - Here you can fill the input with the name of the city where you are looking for collecting points.</p>
-  <img src="public/assets/readmeImages/SearchField.png" width="500px">
-</div>
-<br>
-<div>
-  <p>Search Results Page - This page will show all the collection points that exists in the city you are searching for.</p>
-  <img src="public/assets/readmeImages/SearchResults.png" width="500px">
-</div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -151,7 +139,7 @@ Mario Andres Doncel Neto
 Email - 88mario.doncel@gmail.com <br>
 Whatsapp - +55 19 99612 9909
 
-Project Link: [https://github.com/MarioDoncel/NLW1](https://github.com/MarioDoncel/NLW1)
+Project Link: [https://github.com/MarioDoncel/MaratonaDiscover](https://github.com/MarioDoncel/MaratonaDiscover)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
