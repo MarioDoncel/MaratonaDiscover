@@ -4,9 +4,10 @@
 <div align="center">
     <img src="assets/logo.svg" alt="Logo" width="300px">
 <br>
-Project developed at the first edition of the "<a href="https://www.rocketseat.com.br/">Rocketseat</a> - Maratona Discover"  event. 
+Project developed at the first edition of the "<a href="https://www.rocketseat.com.br/">Rocketseat</a> - Maratona Discover" event. 
+</div><br/>
 <div id="top"></div>
-</div><br/>  
+  
 
 <!-- 
 [![Contributors][contributors-shield]][contributors-url]
@@ -14,8 +15,8 @@ Project developed at the first edition of the "<a href="https://www.rocketseat.c
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url] 
 -->
-[![MIT License][license-shield]](https://github.com/MarioDoncel/MaratonaDiscover/blob/master/LICENSE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/marioadoncel/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/MarioDoncel/MaratonaDiscover/blob/master/LICENSE)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marioadoncel/)
 
 
 <br />
@@ -59,9 +60,9 @@ Responsive application developed for managing user's financial incomes and expen
 
 <!-- This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples. -->
 
-* [HTML]
-* [CSS]
-* [Javascript]
+* HTML
+* CSS
+* Javascript
 <!-- 
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
