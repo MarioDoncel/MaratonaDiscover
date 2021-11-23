@@ -20,36 +20,12 @@ const storage = {
 
 const transactions = storage.get()
 
-// [
-//     {
-//         description: 'luz',
-//         amount: -50000,
-//         date: '23/01/2021',
-//     },
-//     {
-//         description: 'Website',
-//         amount: 500000,
-//         date: '23/01/2021',
-//     },
-//     {
-//         description: 'Internet',
-//         amount: -20000,
-//         date: '23/01/2021',
-//     },
-//     {
-//         description: 'App',
-//         amount: 20000,
-//         date: '23/01/2021',
-//     },
-// ]
-
 
 
 const balance = {
     all: transactions,
     add(transaction) {
         balance.all.push(transaction)
-
 
         app.reload()
     },
@@ -111,13 +87,12 @@ const DOM = {
                 <td class="${CSSclass}">${amount}</td>
                 <td class="date">${transaction.date}</td>
                 <td>
-                    <img onclick="balance.remove(${index})" src="/MaratonaDiscover/assets/minus.svg" alt="Remover">
+                    <img onclick="balance.remove(${index})" src="/assets/minus.svg" alt="Remover">
                 </td>
             `
 
         return html
     },
-
     updateBalance() {
         document.getElementById('incomeDisplay').innerHTML = utils.formatCurrency(balance.incomes())
 
@@ -125,7 +100,6 @@ const DOM = {
 
         document.getElementById('totalDisplay').innerHTML = utils.formatCurrency(balance.total())
     },
-
     clearTransactions() {
         DOM.transactionsContainer.innerHTML = ""
     },
@@ -134,16 +108,12 @@ const DOM = {
 const utils = {
     formatAmount(value) {
         value = Number(value.replace(/\,\./g, "")) * 100
-
         return value
     },
-
     formatDate() {
-
         const splittedDate = date.value.split("-")
         return `${splittedDate[2]}/${splittedDate[1]}/${splittedDate[0]}`
     },
-
     formatCurrency(value) {
         const signal = Number(value) < 0 ? "-" : ""
 
@@ -164,7 +134,6 @@ const form = {
     description: document.querySelector('input#description'),
     amount: document.querySelector('input#amount'),
     date: document.querySelector('input#date'),
-
     getValues() {
         return {
             description: form.description.value,
@@ -172,7 +141,6 @@ const form = {
             date: form.date.value
         }
     },
-
     validateFields() {
         const { description, amount, date } = form.getValues()
 
@@ -180,7 +148,6 @@ const form = {
             throw new Error("Por favor, preencha todos os campos")
         }
     },
-
     formatValues() {
         let { description, amount, date } = form.getValues()
 
@@ -193,20 +160,16 @@ const form = {
             date
         }
     },
-
     saveTransaction(transaction) {
         balance.add(transaction)
     },
-
     clearFields() {
         form.description.value = ""
         form.amount.value = ""
         form.date.value = ""
     },
-
     submit(event) {
         event.preventDefault()
-
 
         try {
             form.validateFields()
@@ -222,14 +185,11 @@ const form = {
             alert(error.message)
         }
 
-
-
         form.formatValues()
     }
 
 
 }
-
 
 
 const app = {
@@ -252,10 +212,3 @@ app.init()
 
 
 
-// balance.add({
-//     description: 'ALO',
-//     amount: -50000,
-//     date: '23/01/2021',
-// })
-
-// balance.remove(0)
